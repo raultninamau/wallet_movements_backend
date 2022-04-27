@@ -1,0 +1,34 @@
+version: "3.5"
+services:
+  ms-sql-server:
+    image: mcr.microsoft.com/mssql/server:2019-GA-ubuntu-16.04
+    environment:
+      ACCEPT_EULA: Y
+      SA_PASSWORD: Movement255#2019
+    ports:
+      - "1434:1433"
+    networks:
+      - micromov
+    container_name: "ms-sql-server"
+  movements-api:
+    build: .
+    environment:
+      - sql:cn=Server=ms-sql-server;Initial Catalog=db_movements;User Id=sa;Password=Movement255#2019
+    ports:
+      - "8090:81"
+    depends_on:
+      - ms-sql-server
+    container_name: "movements-api"
+    networks:
+      - micromov
+  movements-ui:
+    build:
+      context: ./my-app
+    ports:
+      - "3001:3001"
+    container_name: movements-ui
+    stdin_open: true
+networks:
+  micromov:
+    driver: bridge
+    name: "micromov"

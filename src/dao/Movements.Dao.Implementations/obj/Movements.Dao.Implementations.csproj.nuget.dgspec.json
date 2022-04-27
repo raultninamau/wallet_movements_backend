@@ -1,0 +1,252 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\source_projects\\Microservices-net\\movements-backend\\src\\dao\\Movements.Dao.Implementations\\Movements.Dao.Implementations.csproj": {}
+  },
+  "projects": {
+    "D:\\source_projects\\Microservices-net\\movements-backend\\src\\core\\domain\\Movements.Domain\\Movements.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\source_projects\\Microservices-net\\movements-backend\\src\\core\\domain\\Movements.Domain\\Movements.Domain.csproj",
+        "projectName": "Movements.Domain",
+        "projectPath": "D:\\source_projects\\Microservices-net\\movements-backend\\src\\core\\domain\\Movements.Domain\\Movements.Domain.csproj",
+        "packagesPath": "C:\\Users\\rault\\.nuget\\packages\\",
+        "outputPath": "D:\\source_projects\\Microservices-net\\movements-backend\\src\\core\\domain\\Movements.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\rault\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\source_projects\\Microservices-net\\movements-backend\\src\\dao\\Movements.Dao.Implementations\\Movements.Dao.Implementations.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\source_projects\\Microservices-net\\movements-backend\\src\\dao\\Movements.Dao.Implementations\\Movements.Dao.Implementations.csproj",
+        "projectName": "Movements.Dao.Implementations",
+        "projectPath": "D:\\source_projects\\Microservices-net\\movements-backend\\src\\dao\\Movements.Dao.Implementations\\Movements.Dao.Implementations.csproj",
+        "packagesPath": "C:\\Users\\rault\\.nuget\\packages\\",
+        "outputPath": "D:\\source_projects\\Microservices-net\\movements-backend\\src\\dao\\Movements.Dao.Implementations\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\rault\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "D:\\source_projects\\Microservices-net\\movements-backend\\src\\core\\domain\\Movements.Domain\\Movements.Domain.csproj": {
+                "projectPath": "D:\\source_projects\\Microservices-net\\movements-backend\\src\\core\\domain\\Movements.Domain\\Movements.Domain.csproj"
+              },
+              "D:\\source_projects\\Microservices-net\\movements-backend\\src\\dao\\Movements.Dao.Interfaces\\Movements.Dao.Interfaces.csproj": {
+                "projectPath": "D:\\source_projects\\Microservices-net\\movements-backend\\src\\dao\\Movements.Dao.Interfaces\\Movements.Dao.Interfaces.csproj"
+              },
+              "D:\\source_projects\\Microservices-net\\movements-backend\\src\\dao\\Movements.Dao.SQLServer\\Movements.Dao.SQLServer.csproj": {
+                "projectPath": "D:\\source_projects\\Microservices-net\\movements-backend\\src\\dao\\Movements.Dao.SQLServer\\Movements.Dao.SQLServer.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\source_projects\\Microservices-net\\movements-backend\\src\\dao\\Movements.Dao.Interfaces\\Movements.Dao.Interfaces.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\source_projects\\Microservices-net\\movements-backend\\src\\dao\\Movements.Dao.Interfaces\\Movements.Dao.Interfaces.csproj",
+        "projectName": "Movements.Dao.Interfaces",
+        "projectPath": "D:\\source_projects\\Microservices-net\\movements-backend\\src\\dao\\Movements.Dao.Interfaces\\Movements.Dao.Interfaces.csproj",
+        "packagesPath": "C:\\Users\\rault\\.nuget\\packages\\",
+        "outputPath": "D:\\source_projects\\Microservices-net\\movements-backend\\src\\dao\\Movements.Dao.Interfaces\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\rault\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "D:\\source_projects\\Microservices-net\\movements-backend\\src\\core\\domain\\Movements.Domain\\Movements.Domain.csproj": {
+                "projectPath": "D:\\source_projects\\Microservices-net\\movements-backend\\src\\core\\domain\\Movements.Domain\\Movements.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\source_projects\\Microservices-net\\movements-backend\\src\\dao\\Movements.Dao.SQLServer\\Movements.Dao.SQLServer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\source_projects\\Microservices-net\\movements-backend\\src\\dao\\Movements.Dao.SQLServer\\Movements.Dao.SQLServer.csproj",
+        "projectName": "Movements.Dao.SQLServer",
+        "projectPath": "D:\\source_projects\\Microservices-net\\movements-backend\\src\\dao\\Movements.Dao.SQLServer\\Movements.Dao.SQLServer.csproj",
+        "packagesPath": "C:\\Users\\rault\\.nuget\\packages\\",
+        "outputPath": "D:\\source_projects\\Microservices-net\\movements-backend\\src\\dao\\Movements.Dao.SQLServer\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\rault\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "D:\\source_projects\\Microservices-net\\movements-backend\\src\\core\\domain\\Movements.Domain\\Movements.Domain.csproj": {
+                "projectPath": "D:\\source_projects\\Microservices-net\\movements-backend\\src\\core\\domain\\Movements.Domain\\Movements.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

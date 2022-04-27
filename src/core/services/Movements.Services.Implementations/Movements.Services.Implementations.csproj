@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\dao\Movements.Dao.Interfaces\Movements.Dao.Interfaces.csproj" />
+    <ProjectReference Include="..\..\domain\Movements.Domain\Movements.Domain.csproj" />
+    <ProjectReference Include="..\Movements.Services.Interfaces\Movements.Services.Interfaces.csproj" />
+  </ItemGroup>
+
+</Project>

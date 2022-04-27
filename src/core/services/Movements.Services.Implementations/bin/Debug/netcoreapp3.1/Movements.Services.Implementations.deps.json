@@ -1,0 +1,64 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Movements.Services.Implementations/1.0.0": {
+        "dependencies": {
+          "Movements.Dao.Interfaces": "1.0.0",
+          "Movements.Domain": "1.0.0",
+          "Movements.Services.Interfaces": "1.0.0"
+        },
+        "runtime": {
+          "Movements.Services.Implementations.dll": {}
+        }
+      },
+      "Movements.Dao.Interfaces/1.0.0": {
+        "dependencies": {
+          "Movements.Domain": "1.0.0"
+        },
+        "runtime": {
+          "Movements.Dao.Interfaces.dll": {}
+        }
+      },
+      "Movements.Domain/1.0.0": {
+        "runtime": {
+          "Movements.Domain.dll": {}
+        }
+      },
+      "Movements.Services.Interfaces/1.0.0": {
+        "dependencies": {
+          "Movements.Domain": "1.0.0"
+        },
+        "runtime": {
+          "Movements.Services.Interfaces.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Movements.Services.Implementations/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Movements.Dao.Interfaces/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Movements.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Movements.Services.Interfaces/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
